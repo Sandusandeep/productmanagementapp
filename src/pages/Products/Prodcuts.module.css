@@ -1,0 +1,106 @@
+.page {
+  padding: 40px;
+
+  background-color: #f5f5f5;
+
+  min-height: 100vh;
+}
+
+.pageTitle {
+  text-align: center;
+
+  font-size: 40px;
+
+  font-weight: 700;
+
+  margin-bottom: 30px;
+
+  color: #222;
+}
+
+.container {
+  width: 1180px;
+
+  margin: auto;
+
+  background-color: white;
+
+  border: 1px solid #e5e5e5;
+}
+
+.content {
+  padding: 24px;
+}
+
+.controls {
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 24px;
+}
+
+.searchInput,
+.filterSelect,
+.sortSelect {
+  height: 38px;
+
+  border: 1px solid #dddddd;
+
+  padding: 0px 12px;
+
+  font-size: 13px;
+
+  background-color: white;
+
+  outline: none;
+}
+
+.searchInput {
+  width: 240px;
+}
+
+.filterSelect {
+  width: 160px;
+}
+
+.sortSelect {
+  width: 120px;
+}
+
+.gridContainer {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 16px;
+}
+
+.pagination {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 4px;
+
+  margin-top: 20px;
+}
+
+.pageButton,
+.activePage {
+  width: 28px;
+
+  height: 28px;
+
+  border: 1px solid #ddd;
+
+  background-color: white;
+
+  cursor: pointer;
+
+  font-size: 12px;
+}
+
+.activePage {
+  background-color: #f3f3f3;
+}
